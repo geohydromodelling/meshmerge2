@@ -1,0 +1,17 @@
+﻿Der Buildvorgang wurde am 26.08.2015 09:55:09 gestartet.
+     1>Projekt "D:\Programmierung\meshmerge\converter.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>InitializeBuildStatus:
+         Aktualisieren des Timestamps von ".\Release\converter.tlog\unsuccessfulbuild".
+       ClCompile:
+         Alle Ausgaben sind aktuell.
+       Link:
+         Alle Ausgaben sind aktuell.
+         converter.vcxproj -> D:\Programmierung\meshmerge\.\Release\converter.exe
+       FinalizeBuildStatus:
+         Die Datei ".\Release\converter.tlog\unsuccessfulbuild" wird gelöscht.
+         Aktualisieren des Timestamps von ".\Release\converter.tlog\converter.lastbuildstate".
+     1>Die Erstellung des Projekts "D:\Programmierung\meshmerge\converter.vcxproj" ist abgeschlossen, Build Ziel(e).
+
+Build erfolgreich.
+
+Verstrichene Zeit 00:00:00.04

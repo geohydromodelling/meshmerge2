@@ -1,0 +1,18 @@
+#INPUT
+$PLANE
+ z 
+$COORDINATE 
+ 0.0
+$EPSILON
+ 1e-7
+$SKIP
+ 2D
+#STOP
+
+base.msh and attach.msh must share a surface identical in Element and Node positions.
+Keywords:
+$PLANE: x, y or z defines the plane orientation at which the attach.msh will be attached
+$COORDINATE: Defines the PLANE-coordinate of the surface at which meshes will be attached. 
+             Surface must be perpendicular to x, y or z direction 
+$EPSILON: Search radius for matching of nodes along attachment surface
+$SKIP: 2D is the only argument allowed so far. This will ignore al 2D element of attach.msh when merging the mesches.

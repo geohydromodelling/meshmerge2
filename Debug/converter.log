@@ -1,0 +1,27 @@
+﻿Der Buildvorgang wurde am 25.08.2015 19:31:28 gestartet.
+     1>Projekt "D:\Programmierung\meshmerge\converter.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>InitializeBuildStatus:
+         ".\Debug\converter.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt converter.cpp
+         converter.cpp
+     1>d:\programmierung\meshmerge\converter.cpp(414): warning C4018: '<': Konflikt zwischen 'signed' und 'unsigned'
+     1>d:\programmierung\meshmerge\converter.cpp(423): warning C4018: '<': Konflikt zwischen 'signed' und 'unsigned'
+     1>d:\programmierung\meshmerge\converter.cpp(64): warning C4101: 'iummy': Unreferenzierte lokale Variable
+     1>d:\programmierung\meshmerge\converter.cpp(63): warning C4101: 'fummy': Unreferenzierte lokale Variable
+     1>d:\programmierung\meshmerge\converter.cpp(34): warning C4101: 'null': Unreferenzierte lokale Variable
+     1>d:\programmierung\meshmerge\converter.cpp(34): warning C4101: 'nn': Unreferenzierte lokale Variable
+     1>d:\programmierung\meshmerge\converter.cpp(48): warning C4101: 'zones': Unreferenzierte lokale Variable
+     1>d:\programmierung\meshmerge\converter.cpp(48): warning C4101: 'k': Unreferenzierte lokale Variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/converter.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug/converter.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\converter.lib" /MACHINE:X86 /SAFESEH .\Debug/converter.obj
+     1>converter.obj : warning LNK4075: /EDITANDCONTINUE wird aufgrund der Angabe von /OPT:LBR ignoriert.
+         converter.vcxproj -> D:\Programmierung\meshmerge\.\Debug\converter.exe
+       FinalizeBuildStatus:
+         Die Datei ".\Debug\converter.tlog\unsuccessfulbuild" wird gelöscht.
+         Aktualisieren des Timestamps von ".\Debug\converter.tlog\converter.lastbuildstate".
+     1>Die Erstellung des Projekts "D:\Programmierung\meshmerge\converter.vcxproj" ist abgeschlossen, Build Ziel(e).
+
+Build erfolgreich.
+
+Verstrichene Zeit 00:00:01.34
